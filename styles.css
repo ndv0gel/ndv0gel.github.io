@@ -86,16 +86,36 @@ nav ul li a {
     margin-bottom: 1rem;
 }
 
-/* Essay Section Styles */
-.essay-section {
-    margin: 2rem auto;
-    max-width: 800px;
-    padding: 0 20px;
+/* Essays Section */
+#essays {
+    padding: 4rem 2rem;
+    background-color: #fff;
 }
 
-.essay-section h2 {
+#essays h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+    color: #333;
+    font-size: 2rem;
+}
+
+.essays-grid {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.essay-card {
+    background: #f8f9fa;
+    border-radius: 10px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.essay-card h3 {
     color: #333;
     margin-bottom: 1.5rem;
+    font-size: 1.5rem;
     text-align: center;
 }
 
@@ -111,7 +131,14 @@ nav ul li a {
 }
 
 .essay-content p:last-child {
-    margin-bottom: 0;
+    margin-bottom: 1rem;
+}
+
+.essay-date {
+    text-align: right;
+    color: #666;
+    font-style: italic;
+    margin-top: 1rem;
 }
 
 /* Projects Section */
@@ -196,6 +223,59 @@ nav ul li a {
     background-color: #0056b3;
 }
 
+/* Resume Section */
+#resume {
+    padding: 4rem 2rem;
+    background-color: #fff;
+}
+
+#resume h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+
+.resume-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.experience-item {
+    margin-bottom: 2.5rem;
+    padding: 1.5rem;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.experience-item h3 {
+    color: #333;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.experience-item .company {
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 0.3rem;
+}
+
+.experience-item .date {
+    color: #888;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.experience-item ul {
+    padding-left: 20px;
+}
+
+.experience-item li {
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
 /* Project Detail Pages */
 .project-detail {
     max-width: 800px;
@@ -234,7 +314,6 @@ nav ul li a {
     max-width: 600px;
 }
 
-/* Updated Project Content List Styles */
 .project-content ul {
     width: 80%;
     margin: 1rem auto;
@@ -302,5 +381,9 @@ footer {
     .project-links {
         flex-direction: column;
         align-items: center;
+    }
+
+    .essay-card {
+        padding: 1.5rem;
     }
 }
