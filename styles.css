@@ -63,6 +63,19 @@ nav ul li a {
     color: #333;
 }
 
+.social-links a:hover {
+    color: #E1306C;
+}
+
+.social-links a .fa-instagram:hover {
+    background: -webkit-linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
 /* Interests Section */
 .interests {
     margin: 2rem 0;
@@ -102,6 +115,9 @@ nav ul li a {
 .essays-grid {
     max-width: 800px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .essay-card {
@@ -110,6 +126,11 @@ nav ul li a {
     padding: 2rem;
     margin-bottom: 2rem;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.essay-card:hover {
+    transform: translateY(-5px);
 }
 
 .essay-card h3 {
