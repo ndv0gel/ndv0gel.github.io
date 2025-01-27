@@ -162,6 +162,34 @@ nav ul li a {
     margin-top: 1rem;
 }
 
+/* Essay Detail Page Styles */
+.essay-detail {
+    max-width: 800px;
+    margin: 80px auto 40px;
+    padding: 0 20px;
+}
+
+.essay-detail h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.essay-detail .essay-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 1rem;
+}
+
+.essay-detail .essay-date {
+    text-align: right;
+    color: #666;
+    font-style: italic;
+}
+
 /* Projects Section */
 #projects {
     padding: 4rem 2rem;
