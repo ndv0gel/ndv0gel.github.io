@@ -190,6 +190,60 @@ nav ul li a {
     font-style: italic;
 }
 
+/* Technical Essay Formatting */
+.essay-detail .essay-content h2 {
+    color: #333;
+    margin: 2rem 0 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.essay-detail .essay-content a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.essay-detail .essay-content a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.essay-detail .essay-content ul {
+    margin: 1rem 0;
+    padding-left: 2rem;
+    list-style-type: disc;
+}
+
+.essay-detail .essay-content li {
+    margin-bottom: 0.5rem;
+    color: #444;
+    line-height: 1.6;
+}
+
+.essay-detail .essay-content blockquote {
+    margin: 1.5rem 0;
+    padding-left: 1rem;
+    border-left: 4px solid #007bff;
+    color: #666;
+    font-style: italic;
+}
+
+.essay-detail .essay-content pre {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 5px;
+    overflow-x: auto;
+    margin: 0.5rem 0;
+}
+
+.essay-detail .essay-content code {
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+    font-size: 0.9rem;
+    color: #333;
+    line-height: 1.4;
+}
+
 /* Projects Section */
 #projects {
     padding: 4rem 2rem;
